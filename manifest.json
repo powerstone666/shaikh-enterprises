@@ -1,0 +1,17 @@
+{
+    "name": "Shaikh Enterprises",
+    "short_name": "SE",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "description": "E-commerce site for architecture and interior design products.",
+    "icons": [
+      {
+        "src": "icon.png",
+        "sizes": "192x192",
+        "type": "https://cdn-icons-gif.flaticon.com/15547/15547248.gif"
+      }
+    ]
+  }
+  
