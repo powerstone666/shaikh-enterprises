@@ -1,7 +1,7 @@
 function Service() {
   return (
     <>
-      <div className="h-full w-full bg-gray-100 pt-8">
+      <div className="h-full w-full bg-gray-100 pt-8" id="service">
         <h1 className="text-xl md:text-2xl text-center text-orange-500 font-bold">
           OUR SERVICES
         </h1>

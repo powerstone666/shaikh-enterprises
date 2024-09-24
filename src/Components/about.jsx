@@ -91,7 +91,7 @@ function About() {
   ];
   return (
     <>
-      <div className="bg-black h-full w-full ">
+      <div className="bg-black h-full w-full " id="about">
         <div className="flex flex-col md:flex-row md:justify-between text-center">
           <div className="w-full md:w-1/2 h-auto mt-12 px-4">
             <h1 className="text-4xl text-orange-500">OUR PRODUCTS</h1>
@@ -203,7 +203,7 @@ function About() {
       </motion.ol>
     </motion.div>
           <div className="md:h-full md:w-1/2 w-full h-1/2">
-            <div className="md:p-4 md:flex md:justify-center pb-12 mt-12 overflow-y-hidden scrollbar-hide">
+            <div className="md:p-4 md:flex md:justify-center pb-12 mt-12 overflow-y-hidden ">
               <ImageList
                 sx={{ width: 500, height: 450 }}
                 variant="quilted"
