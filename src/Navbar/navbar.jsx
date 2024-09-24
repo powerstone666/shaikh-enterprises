@@ -22,7 +22,7 @@ function Navbar() {
                             alt="Logo"
                         />
                     </div>
-                    <h1 className="text-md md:text-2xl font-bold text-black">
+                    <h1 className="text-md  lg:text-2xl font-bold text-black">
                         <span className="text-orange-600">SHAIKH </span> ENTERPRISES
                     </h1>
                 </div>
