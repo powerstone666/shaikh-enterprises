@@ -4,9 +4,9 @@ import Button from '@mui/material/Button';
 import { orange } from '@mui/material/colors';
 import { useState, useEffect } from "react";
 import { Link as ScrollLink } from 'react-scroll';
-import { motion, useScroll } from "framer-motion";
+
 function Navbar() {
-    const { scrollYProgress } = useScroll();
+   
     // Retrieve the saved section from localStorage, defaulting to 'home'
     const [selected, setSelected] = useState(localStorage.getItem('selectedSection') || 'home');
     const [open, setOpen] = useState(false);
@@ -31,10 +31,7 @@ function Navbar() {
 
     return (
         <>
-          <motion.div
-        style={{ scaleX: scrollYProgress }}
-        className="fixed top-0 left-0 right-0 h-1 z-50 bg-orange-600 origin-left"
-      />
+         
             <nav className="w-full fixed bg-white h-20 border-b-4 border-gray-100 flex justify-between items-center z-50">
                 <div className="flex items-center">
                     <div>
@@ -45,7 +42,7 @@ function Navbar() {
                         />
                     </div>
                     <h1 className="text-md lg:text-2xl font-bold text-black">
-                        <span className="text-orange-600">SHAIKH </span> ENTERPRISES
+                        <span className="text-orange-600">SHAIK </span> ENTERPRISES
                     </h1>
                 </div>
                 <div>

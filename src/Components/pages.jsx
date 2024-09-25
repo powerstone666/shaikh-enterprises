@@ -12,7 +12,7 @@ function Pages() {
               </h1>
               <br />
               <p className="text-black text-sm md:text-xl pl-0 md:pl-2">
-                At Shaikh Enterprises, we prioritize providing you with the best in every category, ensuring both style and functionality. 
+                At Shaik Enterprises, we prioritize providing you with the best in every category, ensuring both style and functionality. 
                 We understand that the products you choose evoke emotions and reflect your personal taste, which is why we focus on quality and customer satisfaction.
               </p>
               {/* First feature */}

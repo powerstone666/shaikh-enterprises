@@ -15,9 +15,9 @@ function Footer() {
             <div className="container mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-8">
                 {/* Company Info */}
                 <div className="space-y-4">
-                    <h2 className="text-2xl font-bold">SHAIKH ENTERPRISES</h2>
+                    <h2 className="text-2xl font-bold">SHAIK ENTERPRISES</h2>
                     <p className="text-sm">
-                        Shaikh Enterprises is dedicated to providing a wide range of quality products, from shoes and clothes to home utensils.
+                        Shaik Enterprises is dedicated to providing a wide range of quality products, from shoes and clothes to home utensils.
                         We bring your shopping vision to life with a focus on value, innovation, and exceptional customer service.
                     </p>
                 </div>
@@ -59,7 +59,7 @@ function Footer() {
 
             {/* Footer Bottom */}
             <div className="mt-10 text-center text-sm border-t border-gray-700 pt-5">
-                <p>&copy; {new Date().getFullYear()} SHAIKH ENTERPRISES. All Rights Reserved.</p>
+                <p>&copy; {new Date().getFullYear()} SHAIK ENTERPRISES. All Rights Reserved.</p>
             </div>
         </footer>
     );
